@@ -13,7 +13,7 @@ import { AuthModule } from './auth/auth.module';
       port: 3306,
       username: 'b4649a9f2354a5',
       password: '1afe2ef4',
-      database: 'catalogue',
+      database: 'heroku_457d49432c8e5d5',
       entities: [Product],
       autoLoadEntities: true,
       synchronize: true,

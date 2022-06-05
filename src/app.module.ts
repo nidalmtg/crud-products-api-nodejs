@@ -9,10 +9,10 @@ import { AuthModule } from './auth/auth.module';
     ProductsModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'us-cdbr-east-05.cleardb.net',
       port: 3306,
-      username: 'root',
-      password: '',
+      username: 'b4649a9f2354a5',
+      password: '1afe2ef4',
       database: 'catalogue',
       entities: [Product],
       autoLoadEntities: true,
